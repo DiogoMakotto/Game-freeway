@@ -1,9 +1,12 @@
-
-
-
 function setup() {
     createCanvas(500, 400);
 }
+
 function draw() {
-    background(imgEstrada);  
+  background(imgEstrada); 
+  mostraAtor ();
+  mostraCarro ();
+  movimentaCarro ();
+  movimentaAtor ();
+  loopingPosicaoInicial(); 
 }   
