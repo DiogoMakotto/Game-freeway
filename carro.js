@@ -12,19 +12,19 @@ function mostraCarro(){
 
 //velocidade
 function movimentaCarro(){
-    xCarros[0] -= velocidadeCarros[0];
-    xCarros[1] -= velocidadeCarros[1];
-    xCarros[2] -= velocidadeCarros[2];
+    for(let i = 0; i < imgCarros.length; i = i + 1){
+        xCarros[i] -= velocidadeCarros[i];
+    }
 }
 
 function loopingPosicaoInicial() {
-    if (xCarros[0] < -50) {
-        xCarros[0] = xCarros[0]
+    for(let i = 0; i < imgCarros.length; i = i + 1){
+        if (passouTodaATela(xCarros[i])) {
+        xCarros[i] = 600;
+        }
     }
-    if (xCarros[1] < -50) {
-        xCarros[1] = xCarros[1]
-    }
-    if (xCarros[2] < -50) {
-        xCarros[2] = xCarros[2]
-    }
+}
+
+function passouTodaATela(xCarros){
+    return xCarros < - 50;
 }
