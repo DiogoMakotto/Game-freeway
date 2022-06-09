@@ -2,7 +2,7 @@
 
 let xAtor = 100;
 let yAtor = 366;    //var do ator
-
+let colisao = false;  //valor inicial do nosso ator
 
 function mostraAtor(){
     image(imgAtor, xAtor, yAtor, 30, 30);
@@ -15,4 +15,16 @@ function movimentaAtor(){
     if (keyIsDown(DOWN_ARROW)){
       yAtor += 3;
     }
+}
+
+function verificaColisao(){
+  for(let i = 0; i < imgCarros.length; i++){
+    colisao = collideRectCircle(xCarros[i], yCarros[i], comprimentoCarro, alturaCarro, xAtor, yAtor, 15)
+    if(colisao){
+      colidiu();
+    }
+  }
+}
+function colidiu(){
+  yAtor = 366;
 }
