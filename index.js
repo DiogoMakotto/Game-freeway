@@ -9,5 +9,6 @@ function draw() {
   movimentaCarro ();
   movimentaAtor ();
   loopingPosicaoInicial(); 
- 
+  incluiPontos();
+  marcaPonto();
 }   
