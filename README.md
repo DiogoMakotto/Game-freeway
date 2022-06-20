@@ -16,5 +16,6 @@ Jogo eletrônico de ação antigo do Atari, onde o jogador controlava uma galinh
     
 ## Preview
 <div align="center">    
+    
 ![interface](./assets/FreeAway.gif)
 </div>
