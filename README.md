@@ -11,6 +11,7 @@ Jogo eletrônico de ação antigo do Atari, onde o jogador controlava uma galinh
       <img align="center" alt="Makotto-HTML" height="30" width="40"             src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/html5/html5-plain-wordmark.svg">
   <img align="center" alt="Makotto-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/css3/css3-plain.svg"> 
   <br>
+    
   Utilizei um editor de texto online chamado [P5](https://p5js.org/)
   </div>
     
